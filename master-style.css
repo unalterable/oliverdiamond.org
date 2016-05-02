@@ -1,11 +1,22 @@
 body {
 	background-color: #DDD;
-	}
+}
+#header {
+	text-align: right;
+	height: 100px;
+}
+.top-link {
+	background-color: #FFF;
+	margin: 30px 30px;
+	height: 40px;
+	width: 40px;
+	float: right;
+}
 #frame {
 	background-color: #FFF;
 	width: 600px;
 	min-height: 500px;
-	margin: 100px auto 0;    
+	margin: 10px auto 0;    
 	border-radius: 15px;
     border: 1px solid #556;
     padding: 20px;
