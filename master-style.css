@@ -73,3 +73,23 @@ a:hover{
 	width: 150px;
 	margin: 10px 0;
 }
+
+.twitter{
+	background: url("images/twitter.png");
+	background-size: 100% 100%;
+}
+.linkedin{
+	background: url("images/linkedin.png");
+	background-size: 100% 100%;
+}
+.instagram{
+	background: url("images/instagram.png");
+	background-size: 100% 100%;
+}
+
+
+#main-text {
+	margin: 5%;
+	text-align: justify;
+
+}
