@@ -1,15 +1,6 @@
-<html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="../master-style.css">
-	</head>
-	<body>
-		<div id="header">
-			<div class="top-link linkedin"></div>			
-			<div class="top-link instagram"></div>
-			<div class="top-link twitter"></div>
-		</div>
-		<div id="frame">
-			<div id="frame-header"><div id="frame-title">Oliver Diamond's Website</div></div>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/theme/header.php');?>
+
+			<div id="frame-header"><div id="frame-title">Makers Academy Blog</div></div>
 			<div class="main-link-container">
 				<a class="main-link" href="introduction.htm">
 					<img class="main-link-thumbnail" src="../images/cube.png">
@@ -28,6 +19,4 @@
 					Week one
 				</a>
 			</div>
-		</div>
-	</body>
-</html>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/theme/footer.php');?>

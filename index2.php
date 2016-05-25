@@ -1,5 +1,4 @@
-
-<?php include './theme/header.php';?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/theme/header.php');?>
 			<div id="frame-header"><div id="frame-title">Oliver Diamond's Website</div></div>
 			<div class="main-link-container">
 				<a class="main-link" href="about-me/">
@@ -19,4 +18,4 @@
 					Other Thoughts
 				</a>
 			</div>
-<?php include './theme/footer.php';?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/theme/footer.php');?>
