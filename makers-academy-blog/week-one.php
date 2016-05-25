@@ -1,14 +1,4 @@
-<html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="../master-style.css">
-	</head>
-	<body>
-		<div id="header">
-			<div class="top-link linkedin"></div>			
-			<div class="top-link instagram"></div>
-			<div class="top-link twitter"></div>
-		</div>
-		<div id="frame">
+<?php include($_SERVER['DOCUMENT_ROOT'].'/theme/header.php');?>
 			<div id="frame-header"><div id="frame-title">Week One</div></div>
 
 			<div id="main-text">
@@ -22,8 +12,4 @@
 			I grab a spare seat with an empty neighbour (for my pair today). And, after an introduction to git pong (which could have touched on merging issues) we crack on. Today I'm with Carlos, and i feel that we make some good progress. 
 
 
-			</div>
-
-		</div>
-	</body>
-</html>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/theme/footer.php');?>
